@@ -104,12 +104,18 @@ body {
 }
 
 .header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
   background-color: #1b3764;
 }
 .header__container {
   display: flex;
   min-height: 114px;
   align-items: center;
+  padding: 0px 15px;
 }
 .header__logo {
   padding-right: 38px;
@@ -199,4 +205,25 @@ body {
 
 .button__yellow {
   background-color: #ffca42;
+}
+
+/*---PC---*/
+
+@media (max-width: 1087px) {
+  [class*="__container"] {
+    max-width: 970px;
+  }
+  .menu__list {
+    gap: 20px;
+  }
+  .menu__shopping {
+    padding-left: 15px;
+  }
+}
+
+/*---TABLET---*/
+@media (max-width: 992px) {
+  [class*="__container"] {
+    max-width: 750px;
+  }
 }
