@@ -117,7 +117,34 @@ body {
   align-items: center;
   padding: 0px 15px;
 }
+
+/*---HAMBURGER---*/
+.header__hamburger-btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #ffca42;
+  margin-right: 20px;
+}
+.header__hamburger-btn span {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  left: 5px;
+}
+.header__hamburger-btn span:nth-child(1) {
+  transform: translateY(-10px);
+}
+.header__hamburger-btn span:nth-child(3) {
+  transform: translateY(10px);
+}
+/*---*/
+
 .header__logo {
+  width: 199px;
   padding-right: 38px;
 }
 .header__menu {
@@ -207,7 +234,7 @@ body {
   background-color: #ffca42;
 }
 
-/*---PC---*/
+/*---TABLET---*/
 
 @media (max-width: 1087px) {
   [class*="__container"] {
@@ -216,14 +243,38 @@ body {
   .menu__list {
     gap: 20px;
   }
+  s .menu__links {
+    min-width: fit-content;
+  }
   .menu__shopping {
     padding-left: 15px;
   }
 }
 
 /*---TABLET---*/
-@media (max-width: 992px) {
+@media (max-width: 991.98px) {
   [class*="__container"] {
-    max-width: 750px;
+    max-width: 850px;
+  }
+  .header__container {
+    justify-content: center;
+  }
+  .header__button {
+    flex: 0 0 250px;
+  }
+  .menu__links {
+    min-width: fit-content;
+  }
+  .header__hamburger-btn {
+    display: block;
+  }
+  .menu__links {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffca42;
+  }
+  .menu__list {
+    display: block;
   }
 }
