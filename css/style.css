@@ -256,6 +256,31 @@ body {
 .button__yellow {
   background-color: #ffca42;
 }
+
+/*---MAIN BLOCK---*/
+.main-header {
+  background-color: #f6f8fc;
+  padding: 209px 0px 100px 0px;
+}
+
+.main-header__image img {
+  width: 592px;
+  height: 800px;
+}
+.text-block__note {
+  padding-left: 40px;
+  position: relative;
+}
+.text-block__note:before {
+  display: block;
+  content: " ";
+  background: #ffca42;
+  width: 35px;
+  height: 2px;
+  top: 50%;
+  left: 0;
+  position: absolute;
+}
 /*---PC---*/
 @media screen and (max-width: 1230px) {
   [class*="__container"] {
