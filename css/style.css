@@ -208,8 +208,6 @@ body {
 .menu__links {
   display: flex;
 }
-.menu__body {
-}
 
 .menu__list {
   display: flex;
@@ -230,8 +228,6 @@ body {
   transition: 0.3s;
 }
 
-.menu__item {
-}
 .menu__shopping {
   padding-left: 40px;
 }
