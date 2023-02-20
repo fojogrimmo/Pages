@@ -37,4 +37,5 @@
 .icon-circle:before {
   content: "\e903";
   color: #ffca42;
+  padding-right: 10px;
 }
