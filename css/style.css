@@ -256,7 +256,7 @@ body {
 /*---MAIN BLOCK---*/
 .main-header {
   background-color: #1b3764;
-  padding: 209px 0px 100px 0px;
+  padding: 210px 0px 100px 0px;
 }
 
 .main-header__image img {
@@ -360,10 +360,40 @@ body {
   width: 152px;
   margin-left: 10px;
 }
-
+.main-header__container {
+  display: flex;
+}
+.main-header__content {
+  padding: 140px 0px 0px 23px;
+}
+.main-header__image {
+  margin-left: 75px;
+}
 /*---BOOK FEATURES---*/
-.header__book-features {
-  display: grid;
+.features {
+  display: flex;
+}
+.features__column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+}
+.features__title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.48px;
+  color: #fff;
+  padding-bottom: 12px;
+}
+.features__subtitle {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #b4c7e7;
+  margin-left: 28px;
 }
 
 /*---PC---*/
