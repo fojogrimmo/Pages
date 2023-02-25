@@ -402,6 +402,32 @@ body {
   color: #b4c7e7;
   margin-left: 28px;
 }
+/*---ADVERTISING SECTION---*/
+.title__main-title {
+  font-family: "Cardo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  color: #1b3764;
+  text-align: center;
+}
+.title__main-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #ffca42;
+  height: 3px;
+  width: 50px;
+  left: 49%;
+  margin-top: 23px;
+}
+.advertising__container {
+  padding: 110px 0px 0px 0px;
+}
+.advertising__books-list {
+  padding-top: 60px;
+}
 
 /*---PC---*/
 @media (max-width: 1230px) {
