@@ -198,15 +198,15 @@
   .button {
     padding: 16px 10px;
   }
-
+  .main-header {
+    padding: 170px 0px 60px 0px;
+  }
   .main-header__container {
     margin: 0px 20px 0px 20px;
     display: flex;
     flex-wrap: wrap;
   }
-  .main-header__content {
-    margin: 0px 20px 0px 20px;
-  }
+
   .text-block__note {
     font-size: 1.2rem;
   }
@@ -218,6 +218,9 @@
   }
   .main-header__demo-button {
     padding: 0px 20px 0px 20px;
+  }
+  .main-header__demo-button::after {
+    display: none;
   }
   .features {
     padding: 0px 15px 0px 15px;
