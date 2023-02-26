@@ -428,6 +428,14 @@ body {
 }
 .advertising__books-list {
   padding-top: 90px;
+  display: flex;
+}
+.advertising__image {
+  transition: 0.4s;
+}
+.advertising__image:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
 }
 .advertising__image img {
   width: 295px;
