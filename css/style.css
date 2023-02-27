@@ -423,7 +423,7 @@ body {
   margin-top: 23px;
 }
 .advertising__container {
-  padding: 110px 0px 150px 0px;
+  padding: 126px 0px 150px 0px;
   background-color: #fff;
 }
 .advertising__books-list {
@@ -499,4 +499,28 @@ body {
 .adertising__button:hover {
   background-color: #ffca42;
   transition: 0.3s;
+}
+
+/*---AUTHOR SECTION---*/
+.author {
+  background-color: #f5f8fc;
+}
+.author__container {
+  padding: 150px 0px 120px 0px;
+}
+.author__content {
+  position: relative;
+  display: flex;
+  width: 545px;
+  height: 640px;
+  flex-direction: row-reverse;
+}
+.author__picture {
+  position: absolute;
+  width: 525px;
+  height: 620px;
+  margin: -30px 50px 0px 0px;
+}
+
+.author__rectangle {
 }
