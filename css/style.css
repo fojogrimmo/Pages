@@ -508,6 +508,10 @@ body {
 .author__container {
   padding: 150px 0px 120px 0px;
 }
+.author__information {
+  display: flex;
+}
+
 .author__content {
   position: relative;
   display: flex;
@@ -520,7 +524,93 @@ body {
   width: 525px;
   height: 620px;
   margin: -30px 50px 0px 0px;
+  animation-name: author-moving;
+  animation-duration: 2s;
+}
+.author__text {
+  padding-left: 150px;
+}
+.title-left__main-title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  color: #1b3764;
+  position: relative;
+  margin-bottom: 23px;
+}
+.title-left__main-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #ffca42;
+  height: 3px;
+  width: 50px;
+  margin-top: 23px;
+}
+.author__article {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
+  color: #969aa0;
+  padding: 33px 0px 33px 0px;
 }
 
-.author__rectangle {
+.author__statistic {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+}
+.author__column {
+  width: 181px;
+  height: 98px;
+}
+.author__column:not(:last-child) {
+  border-right: 1px solid #ffca42;
+}
+.author__column-title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 143%;
+  color: #1b3764;
+}
+.author__column-status {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 127%;
+  color: #969aa0;
+}
+
+.author__contacts-image img {
+  padding: 15px 40px 15px 20px;
+}
+.author__contancts {
+  background-color: #1b3764;
+  width: 484px;
+  height: 161px;
+  display: flex;
+}
+.author__contact {
+  padding: 37px 26px 25px 0px;
+}
+.author__name {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #ffca42;
+  margin-bottom: 10px;
+}
+.author__mail,
+.author__phone {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 158%;
+  color: #b4c7e7;
+  margin-bottom: 5px;
 }
