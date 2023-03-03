@@ -403,7 +403,7 @@ body {
   margin-left: 28px;
 }
 /*---ADVERTISING SECTION---*/
-.title__main-title {
+.title-center {
   font-family: "Cardo";
   font-style: normal;
   font-weight: 400;
@@ -412,7 +412,7 @@ body {
   color: #1b3764;
   text-align: center;
 }
-.title__main-title::after {
+.title-center::after {
   content: "";
   display: block;
   position: absolute;
@@ -530,7 +530,7 @@ body {
 .author__text {
   padding-left: 150px;
 }
-.title-left__main-title {
+.title-left {
   font-family: "Cardo";
   font-weight: 400;
   font-size: 42px;
@@ -539,7 +539,7 @@ body {
   position: relative;
   margin-bottom: 23px;
 }
-.title-left__main-title::after {
+.title-left::after {
   content: "";
   display: block;
   position: absolute;
@@ -587,6 +587,9 @@ body {
 .author__contacts-image img {
   padding: 15px 40px 15px 20px;
 }
+.author__contacts-image:hover {
+}
+
 .author__contancts {
   background-color: #1b3764;
   width: 484px;
