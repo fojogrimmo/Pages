@@ -524,8 +524,6 @@ body {
   width: 525px;
   height: 620px;
   margin: -30px 50px 0px 0px;
-  animation-name: author-moving;
-  animation-duration: 2s;
 }
 .author__text {
   padding-left: 150px;
