@@ -308,7 +308,7 @@ body {
   margin-bottom: 24px;
 }
 
-.text-block__text {
+.text-decription {
   font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
@@ -486,7 +486,7 @@ body {
 .adertising__button {
   display: inline-block;
   background-color: #fff;
-  border: 2px solid #ffca42;
+  border: 3px solid #ffca42;
   padding: 19px 52px;
   font-family: "Cardo";
   font-weight: 400;
@@ -663,4 +663,64 @@ body {
   color: #969aa0;
   margin: 0 auto;
   padding: 19px 14px 0px 14px;
+}
+
+/*---COPY SECTION---*/
+.copy {
+  width: 100%;
+  background-color: #1b3764;
+}
+.copy__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-white {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 120%;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 23px;
+  padding-bottom: 54px;
+}
+
+.title-white::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #ffca42;
+  height: 3px;
+  width: 50px;
+  margin-top: 23px;
+}
+
+.copy__content {
+  padding-left: 70px;
+}
+.copy__text {
+  padding-bottom: 27px;
+}
+
+.copy__button {
+  display: inline-block;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 150%;
+  color: #fff;
+  padding: 19px 52px;
+  border: 3px solid #ffca42;
+  transition: 0.3s;
+}
+
+.copy__button:hover {
+  background-color: #ffca42;
+  color: #1b3764;
+  transition: 0.3s;
+}
+
+.copy__image {
+  padding: 70px 70px 70px 0px;
 }
