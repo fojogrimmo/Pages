@@ -47,6 +47,9 @@
     width: 475px;
     height: 550px;
   }
+  .associates__company-description {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 1087px) {
