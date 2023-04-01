@@ -26,6 +26,27 @@
   .main-header__content {
     padding: 40px 0px 0px 40px;
   }
+  .advertising__books-list {
+    padding: 90px 10px 0px 10px;
+  }
+  .author__content {
+    margin: 0px 0px 0px 50px;
+  }
+  .author__text {
+    padding: 0px 20px 0px 80px;
+  }
+  .author__column {
+    padding-left: 20px;
+  }
+  .author__picture {
+    width: 95%;
+    height: auto;
+    margin: -25px 47px 0px 0px;
+  }
+  .author__rectangle {
+    width: 475px;
+    height: 550px;
+  }
 }
 
 @media (max-width: 1087px) {
