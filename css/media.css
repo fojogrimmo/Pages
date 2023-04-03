@@ -63,6 +63,43 @@
   .menu__shopping {
     padding-left: 15px;
   }
+  .advertising__books-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advertising__column {
+    flex-direction: column;
+  }
+  .advertising__column:not:first-child {
+    margin-right: 30px;
+  }
+  .advertising__about {
+    padding: 15px 25px 10px 25px;
+  }
+  .advertising__book-title {
+    font-size: 28px;
+  }
+  .advertising__book-description {
+    font-size: 17px;
+  }
+  .author__text {
+    padding: 0px 21px 0px 50px;
+  }
+  .author__article {
+    padding: 33px 70px 25px 0px;
+  }
+  .author__statistic {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 45px;
+  }
+  .copy__image {
+    padding: 70px 70px 70px 30px;
+  }
+  .copy__image img {
+    width: 95%;
+  }
 }
 
 /*---TABLET---*/
