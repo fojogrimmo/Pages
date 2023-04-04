@@ -724,3 +724,37 @@ body {
 .copy__image {
   padding: 70px 70px 70px 0px;
 }
+
+/*---LEARN SECTION---*/
+.learn__info {
+  padding: 60px 0px 140px 0px;
+}
+.learn__cards-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 303px);
+  grid-template-rows: repeat(2, 272px);
+}
+.cards-grid__item {
+  background-color: #f4f8ff;
+}
+.cards-grid__info {
+  padding: 10px 45px 27px 30px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  color: #1b3764;
+}
+span.cards-grid__circle {
+  margin: 20px;
+  padding: 7px 13px 12px 13px;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 100px;
+  color: #1b3764;
+  background: #ffca42;
+  border-radius: 100px;
+  text-align: center;
+}
