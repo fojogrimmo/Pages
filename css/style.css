@@ -272,6 +272,7 @@ body {
 }
 .main-header__image {
   margin-left: 75px;
+  filter: drop-shadow(-1px 2px 11px rgba(0, 0, 0, 0.2));
 }
 .main-header__image img {
   width: 592px;
