@@ -529,6 +529,7 @@ body {
   width: 525px;
   height: 620px;
   margin: -30px 50px 0px 0px;
+  filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
 }
 .author__text {
   padding-left: 150px;
@@ -726,14 +727,21 @@ body {
 }
 
 /*---LEARN SECTION---*/
+
+.learn__title {
+  padding: 136px 0px 0px 0px;
+}
 .learn__info {
-  padding: 60px 0px 140px 0px;
+  padding: 110px 0px 140px 0px;
+  display: flex;
+  justify-content: space-between;
 }
 .learn__cards-grid {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 303px);
   grid-template-rows: repeat(2, 272px);
+  margin-top: 30px;
 }
 .cards-grid__item {
   background-color: #f4f8ff;
@@ -748,7 +756,7 @@ body {
 }
 span.cards-grid__circle {
   margin: 20px;
-  padding: 7px 13px 12px 13px;
+  padding: 7px 12px 11px 12px;
   font-family: "Cardo";
   font-weight: 400;
   font-size: 23px;
@@ -757,4 +765,16 @@ span.cards-grid__circle {
   background: #ffca42;
   border-radius: 100px;
   text-align: center;
+}
+
+.learn__images {
+  display: flex;
+}
+
+.learn__girl-picture {
+  position: absolute;
+  width: 535px;
+  height: 632px;
+  margin: -28px;
+  filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
 }
