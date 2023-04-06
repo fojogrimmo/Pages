@@ -83,6 +83,10 @@
   .advertising__book-description {
     font-size: 17px;
   }
+  .author__picture img {
+    width: 95%;
+    height: auto;
+  }
   .author__text {
     padding: 0px 21px 0px 50px;
   }
@@ -197,6 +201,83 @@
   }
   .features__column {
     margin-right: 30px;
+  }
+  .advertising__container {
+    padding: 126px 0px 120px 0px;
+  }
+  .advertising__image {
+    width: 80%;
+  }
+  .author__information {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .author__content {
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .author__picture {
+    width: 95%;
+    height: auto;
+    margin: -30px 0px 0px 0px;
+  }
+
+  .author__rectangle {
+    width: 100%;
+    height: auto;
+    margin: 0px -38px 18px 14px;
+  }
+
+  .author__text {
+    padding: 0px 30px 0px 40px;
+    margin-top: 30px;
+  }
+
+  .author__title {
+    font-size: 40;
+  }
+  .author__article {
+    padding: 33px 40px 25px 0px;
+    font-size: 20px;
+  }
+  .author__column-title {
+    font-size: 40px;
+  }
+  .author__contancts {
+    width: 420px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .associates__container {
+    padding: 90px 0px 130px 0px;
+  }
+
+  .copy__content {
+    padding: 30px 10px 30px 60px;
+  }
+  .copy__image {
+    padding: 70px 15px 70px 15px;
+  }
+  .learn__title {
+    padding: 80px 0px 0px 0px;
+  }
+  .learn__info {
+    padding: 80px 0px 140px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .learn__cards-grid {
+    margin-bottom: 60px;
+  }
+  .learn__girl-picture {
+    width: 54%;
+    height: auto;
+    margin: -20px;
   }
 }
 

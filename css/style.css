@@ -736,6 +736,7 @@ body {
   padding: 110px 0px 140px 0px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .learn__cards-grid {
   display: grid;
