@@ -780,3 +780,75 @@ span.cards-grid__circle {
   margin: -28px;
   filter: drop-shadow(0px 0px 20px rgba(27, 55, 100, 0.3));
 }
+
+/*---PAGES SECTION---*/
+.pages {
+  background-color: #f4f8ff;
+  width: 100%;
+}
+.pages__container {
+  padding: 116px 0px 130px 0px;
+}
+.pages__chapters {
+  padding: 96px 0px 70px 0px;
+}
+.pages__grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(2, 635px);
+  grid-template-rows: repeat(2, 242px);
+  margin-top: 50px;
+}
+.pages__grid-item {
+  background-color: #fff;
+  padding: 35px 60px 40px 35px;
+}
+.pages__grid-title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #1b3764;
+}
+.pages__grid-description {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 170%;
+  color: #2d4a76;
+  margin: 21px 0px 12px 0px;
+}
+.pages__grid-page {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #1b3764;
+}
+.pages__grid-page span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #2d4a76;
+  margin-right: 45px;
+}
+.pages__grid-info {
+  display: flex;
+}
+
+.pages__grid-length {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  color: #1b3764;
+}
+
+.pages__grid-length span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #2d4a76;
+}
