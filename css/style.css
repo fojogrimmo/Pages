@@ -852,3 +852,40 @@ span.cards-grid__circle {
   line-height: 159%;
   color: #2d4a76;
 }
+.pages__trial {
+  align-items: center;
+  margin: 0 auto;
+}
+.pages__button {
+  background-color: #ffca42;
+  display: inline-block;
+  padding: 22px 90px;
+  border: 2px solid #ffca42;
+  transition: 0.3s;
+  margin-bottom: 34px;
+}
+.pages__button:hover {
+  background-color: #fff;
+
+  transition: 0.3s;
+}
+.pages__trial {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.57px;
+  color: #1b3764;
+}
+.pages__contact {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 158%;
+  text-align: center;
+  color: #2d4a76;
+}
+.pages__contact span {
+  color: #1b3764;
+}
