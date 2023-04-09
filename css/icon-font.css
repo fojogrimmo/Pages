@@ -25,12 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-half:before {
-  content: "\e900";
-}
-.icon-zero:before {
-  content: "\e901";
-}
 .icon-dots:before {
   content: "\e902";
 }
