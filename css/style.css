@@ -894,6 +894,9 @@ span.cards-grid__circle {
 .reader__container {
   padding: 120px 0px 130px 0px;
 }
+.readers__content {
+  display: flex;
+}
 .readers__text {
   max-width: 450px;
   height: fit-content;
@@ -925,4 +928,47 @@ span.cards-grid__circle {
   font-size: 18px;
   line-height: 158%;
   color: #1b3764;
+}
+.readers__grid {
+  display: grid;
+}
+.readers__grid-item {
+  background-color: #1b3764;
+  width: 381px;
+  height: 292px;
+  padding: 28px 56px 32px 34px;
+}
+.readers__grid-person {
+  display: flex;
+  margin-bottom: 20px;
+}
+.readers__grid-info {
+  padding: 15px 0px 0px 20px;
+}
+.readers__grid-info img {
+  max-width: 76px;
+  height: 13px;
+}
+.readers__grid-name {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.readers__grid-title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #fff;
+  margin-bottom: 13px;
+}
+.readers__grid-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #b4c7e7;
 }
