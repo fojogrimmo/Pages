@@ -939,6 +939,12 @@ span.cards-grid__circle {
 .readers__grid-item {
   background-color: #1b3764;
   padding: 28px 56px 32px 34px;
+  transition: 0.3s;
+}
+.readers__grid-item:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 .item-second {
   align-self: center;
@@ -977,4 +983,45 @@ span.cards-grid__circle {
   font-size: 18px;
   line-height: 160%;
   color: #b4c7e7;
+}
+
+/* ---ARTICLES SECTION---*/
+.articles {
+  background-color: #f4f8ff;
+  width: 100%;
+}
+.articles__container {
+  padding: 110px 15px 150px 15px;
+}
+.articles__card-item {
+  max-width: 420px;
+  height: 622px;
+}
+.articles__card-image {
+  width: 100%;
+}
+.articles__card-title {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+  color: #1b3764;
+}
+.articles__card-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 160%;
+  color: #969aa0;
+}
+.articles__card-info {
+  display: flex;
+}
+.articles__card-date {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 159%;
+  color: #1b3764;
 }
