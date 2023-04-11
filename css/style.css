@@ -1000,6 +1000,12 @@ span.cards-grid__circle {
 .articles__card-image {
   width: 100%;
 }
+.articles__card-content {
+  padding: 25px 30px 30px 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
 .articles__card-title {
   font-family: "Cardo";
   font-weight: 400;
@@ -1007,6 +1013,8 @@ span.cards-grid__circle {
   line-height: 140%;
   letter-spacing: 0.24px;
   color: #1b3764;
+  margin-bottom: 20px;
+  padding-right: 30px;
 }
 .articles__card-text {
   font-family: "Inter";
@@ -1014,9 +1022,11 @@ span.cards-grid__circle {
   font-size: 19px;
   line-height: 160%;
   color: #969aa0;
+  margin-bottom: 13px;
 }
 .articles__card-info {
   display: flex;
+  justify-content: space-between;
 }
 .articles__card-date {
   font-family: "Inter";
@@ -1024,4 +1034,35 @@ span.cards-grid__circle {
   font-size: 16px;
   line-height: 159%;
   color: #1b3764;
+}
+
+.articles__card-button {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 120%;
+  letter-spacing: 0.38px;
+  color: #1b3764;
+}
+.card-button:visited {
+  text-decoration: none;
+  color: #1b3764;
+}
+.articles__card-button::after {
+  content: "";
+  position: absolute;
+  background-color: #1b3764;
+  height: 2px;
+  width: 0%;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0;
+  transition: 0.35s ease;
+}
+.articles__card-button:hover::after {
+  width: 94px;
+  /* margin-left: 10px; */
 }
