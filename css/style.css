@@ -991,11 +991,23 @@ span.cards-grid__circle {
   width: 100%;
 }
 .articles__container {
-  padding: 110px 15px 150px 15px;
+  padding: 110px 0px 150px 0px;
+}
+.articles__content {
+  padding-top: 96px;
+}
+.articles__cards {
+  display: flex;
+  justify-content: space-between;
 }
 .articles__card-item {
   max-width: 420px;
   height: 622px;
+  transition: 0.3s ease;
+}
+.articles__card-item:hover {
+  box-shadow: 0px 10px 44px -19px rgba(255, 202, 66, 0.78);
+  transition: 0.3s ease;
 }
 .articles__card-image {
   width: 100%;
@@ -1064,5 +1076,5 @@ span.cards-grid__circle {
 }
 .articles__card-button:hover::after {
   width: 94px;
-  /* margin-left: 10px; */
+  margin-left: 5px;
 }
