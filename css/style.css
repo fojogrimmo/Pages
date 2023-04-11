@@ -440,7 +440,7 @@ body {
   transition: 0.4s;
 }
 .advertising__image:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.4s;
 }
 .advertising__image img {
@@ -644,7 +644,7 @@ body {
 }
 
 .associates__column img:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
   transition: 0.4s;
 }
 
