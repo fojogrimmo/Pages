@@ -626,18 +626,22 @@
             </div>
             <div class="subscribe__validation">
               <div class="subscribe__validation-form">
-                <form action="#" method="get"></form>
-                <input
-                  type="text"
-                  name="email"
-                  value=""
-                  placeholder="Your Email ID..."
-                />
-              </div>
-              <div class="subscribe__validation-btn">
-                <button type="submit" class="subscribe__button">
-                  Subscribe
-                </button>
+                <form action="#" method="get" class="subscribe__form">
+                  <input
+                    type="email"
+                    name="email"
+                    value=""
+                    placeholder="Your Email ID..."
+                    class="subscribe__input"
+                    required
+                  />
+
+                  <input
+                    type="submit"
+                    class="subscribe__button"
+                    value="Subscribe"
+                  />
+                </form>
               </div>
             </div>
           </div>

@@ -1104,3 +1104,48 @@ span.cards-grid__circle {
   color: #1b3764;
   padding-bottom: 50px;
 }
+.subscribe__validation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe__form {
+  display: flex;
+  flex-flow: row wrap;
+}
+.subscribe__input {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+  color: #1b3764;
+  padding: 17px 10px 17px 35px;
+  width: 656px;
+  height: 70px;
+  background: #ffffff;
+  border: 1px solid #dce1e9;
+  margin-right: 16px;
+}
+
+::placeholder {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  letter-spacing: 0.18px;
+  color: #b4c7e7;
+}
+.subscribe__button {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  letter-spacing: 0.18px;
+  color: #ffffff;
+  background-color: #1b3764;
+  padding: 17px 119px;
+  border: 2px solid #1b3764;
+  cursor: pointer;
+}
