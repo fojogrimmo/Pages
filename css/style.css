@@ -1148,4 +1148,47 @@ span.cards-grid__circle {
   padding: 17px 119px;
   border: 2px solid #1b3764;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+.subscribe__button:hover {
+  box-shadow: 15px 10px 13px rgba(0, 0, 0, 0.07);
+  transition: 0.5s ease;
+  background-color: #fff;
+  color: #1b3764;
+  border: 2px solid #fff;
+}
+
+/*---FOOTER---*/
+.footer {
+  padding: 92px 0px 25px 0px;
+  background-color: #1b3764;
+  width: 100%;
+}
+.footer__links-logo img {
+  margin-bottom: 20px;
+}
+.footer__links-social {
+  display: flex;
+}
+.footer__links-social img {
+  align-items: center;
+  margin: 0 auto;
+}
+.footer__link-item {
+  height: 55px;
+  width: 55px;
+  padding: 18px 21px;
+  border: 1px solid #ffca42;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.footer__link-item:nth-child(2) {
+  padding: 20px 19px;
+}
+.footer__link-item:last-child {
+  padding: 18px 18px;
+}
+.footer__link-item:hover {
+  background-color: #ffca42;
+  transition: 0.3s;
 }
