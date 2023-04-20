@@ -485,7 +485,7 @@ body {
   line-height: 120%;
   color: #1b3764;
 }
-.adertising__button {
+.advertising__button-order {
   display: inline-block;
   background-color: #fff;
   border: 3px solid #ffca42;
@@ -499,10 +499,10 @@ body {
   margin-top: 27px;
   transition: 0.3s;
 }
-.adertising__button a:visited {
+.advertising__button-order a:visited {
   color: inherit;
 }
-.adertising__button:hover {
+.advertising__button-order:hover {
   background-color: #ffca42;
   transition: 0.3s;
 }
@@ -852,24 +852,9 @@ span.cards-grid__circle {
   line-height: 159%;
   color: #2d4a76;
 }
-.pages__trial {
-  align-items: center;
-  margin: 0 auto;
-}
-.pages__button {
-  background-color: #ffca42;
-  display: inline-block;
-  padding: 22px 90px;
-  border: 2px solid #ffca42;
-  transition: 0.3s;
-  margin-bottom: 34px;
-}
-.pages__button:hover {
-  background-color: #fff;
 
-  transition: 0.3s;
-}
-.pages__trial {
+.pages__button {
+  margin-bottom: 34px;
   font-family: "Cardo";
   font-weight: 400;
   font-size: 19px;
@@ -878,6 +863,19 @@ span.cards-grid__circle {
   letter-spacing: 0.57px;
   color: #1b3764;
 }
+.pages__trial {
+  display: inline-block;
+  padding: 22px 90px;
+  border: 2px solid #ffca42;
+  background-color: #ffca42;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+.pages__trial:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+
 .pages__contact {
   font-family: "Inter";
   font-weight: 400;
