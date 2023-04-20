@@ -1160,7 +1160,7 @@ span.cards-grid__circle {
 
 /*---FOOTER---*/
 .footer {
-  padding: 92px 0px 25px 0px;
+  padding: 92px 0px 95px 0px;
   background-color: #1b3764;
   width: 100%;
 }
@@ -1197,20 +1197,64 @@ span.cards-grid__circle {
 }
 .footer__contacts {
   display: flex;
+  margin-left: 88px;
 }
 .footer__contacts-title {
-  font-family: 'Cardo';
+  font-family: "Cardo";
   font-weight: 400;
   font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.384px;
-  color: #FFFFFF;
+  color: #fff;
 }
 .footer__contacts-list {
-  font-family: 'Inter';
+  margin: 24px 77px 10px 10px;
+}
+.footer__contacts-list li {
+  margin-bottom: 10px;
+}
+.footer__contacts-link {
+  font-family: "Inter";
   font-weight: 400;
   font-size: 18px;
   line-height: 170%;
   letter-spacing: 0.18px;
-  color: #B4C7E7;
+  color: #b4c7e7;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+.footer__contacts-link:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+.footer__contacts-info {
+  display: flex;
+  margin-top: 28px;
+}
+.footer__contacts-subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer__contacts-name {
+  font-family: "Cardo";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.36px;
+  color: #fff;
+  padding-bottom: 28px;
+}
+.footer__contacts-name:nth-child(1) {
+  margin-bottom: 27px;
+}
+.footer__contact-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 159%;
+  color: #b4c7e7;
+  margin: 0px 0px 28px 28px;
 }
