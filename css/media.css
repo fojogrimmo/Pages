@@ -236,7 +236,7 @@
   }
 
   .author__title {
-    font-size: 40;
+    font-size: 40px;
   }
   .author__article {
     padding: 33px 40px 25px 0px;
@@ -409,6 +409,9 @@
     align-items: center;
     margin-bottom: 30px;
   }
+  .author__title {
+    font-size: 35px;
+  }
   .author__container {
     padding: 100px 0px 70px 0px;
   }
@@ -444,6 +447,15 @@
   .associates__title {
     padding: 0px 15px 0px 15px;
   }
+  .copy__image {
+    padding: 30px 0px 30px 80px;
+  }
+  .learn__title {
+    margin-top: 40px;
+  }
+  .learn__info {
+    padding: 80px 20px 75px 20px;
+  }
   .learn__cards-grid {
     margin: 0px 10px 70px 10px;
   }
@@ -455,6 +467,27 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
+  }
+  .pages__container {
+    padding: 70px 0px 85px 0px;
+  }
+  .title-center {
+    font-size: 35px;
+    padding: 0px 10px;
+  }
+  .pages__chapters {
+    padding: 25px 0px 40px 0px;
+  }
+  .pages__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .pages__grid-item {
+    margin: 0px 20px 0px 20px;
+  }
+  .pages__trial {
+    padding: 15px 50px;
+    margin: 0px 15px 0px 15px;
   }
 }
 
