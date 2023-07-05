@@ -938,6 +938,7 @@ span.cards-grid__circle {
   background-color: #1b3764;
   padding: 28px 56px 32px 34px;
   transition: 0.3s;
+  cursor: default;
 }
 .readers__grid-item:hover {
   transform: scale(1.02);
