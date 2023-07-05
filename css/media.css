@@ -375,10 +375,15 @@
   .readers__info {
     margin: 40px 0px 21px 20px;
   }
+  .readers__ratings,
+  .readers__overall {
+    margin-left: 20px;
+  }
   .readers__grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     margin-left: 0;
+    margin-top: 40px;
   }
   .item-second {
     margin-top: 0;
