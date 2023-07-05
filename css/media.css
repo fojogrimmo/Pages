@@ -399,6 +399,10 @@
   .title-center::after {
     left: 45%;
   }
+  .title-center {
+    font-size: 35px;
+    padding: 0px 40px;
+  }
   .header__container {
     display: flex;
     justify-content: center;
@@ -516,17 +520,30 @@
   .pages__container {
     padding: 70px 0px 85px 0px;
   }
-  .title-center {
-    font-size: 35px;
-    padding: 0px 10px;
-  }
+
   .pages__chapters {
     padding: 25px 0px 40px 0px;
   }
-
   .pages__trial {
     padding: 15px 50px;
     margin: 0px 15px 0px 15px;
+  }
+  .readers__grid-info {
+    padding: 0px 0px 0px 20px;
+  }
+  .readers__grid-person img {
+    width: 67px;
+    height: auto;
+  }
+  .readers__grid-item {
+    padding: 25px 20px 25px 25px;
+    margin: 0px 40px;
+  }
+  .readers__grid-item:hover {
+    transform: none;
+  }
+  .readers__grid-name {
+    margin-top: 15px;
   }
 }
 
@@ -534,5 +551,8 @@
 @media (max-width: 380px) {
   .features__column:nth-child(3) {
     margin-left: 31px;
+  }
+  .readers__grid-info {
+    padding: 0px 0px 0px 10px;
   }
 }
